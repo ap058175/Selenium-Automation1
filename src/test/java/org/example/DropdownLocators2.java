@@ -1,5 +1,6 @@
 package org.example;
 
+import junit.framework.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,13 +13,7 @@ public class DropdownLocators2 {
     public static void main(String[] args) throws InterruptedException {
         WebDriver driver=new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
-        driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
-        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='BHO']")).click();
         Thread.sleep(2000);
-        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='JAI']")).click();
-        Thread.sleep(2000);
-        driver.findElement(By.cssSelector(".ui-state-default.ui-state-active")).click();
-        Thread.sleep(5000);
         driver.findElement(By.cssSelector("input[id='autosuggest']")).sendKeys("ind");
         Thread.sleep(2000);
         List<WebElement> options= driver.findElements(By.cssSelector("li[class='ui-menu-item'] a"));
@@ -29,6 +24,27 @@ public class DropdownLocators2 {
                 option.click();
                 break;
             }
+        }
+        Thread.sleep(2000);
+        driver.findElement(By.cssSelector("input[id='ctl00_mainContent_rbtnl_Trip_1']")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click();
+        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='BHO']")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='JAI']")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.cssSelector(".ui-state-default.ui-state-active")).click();
+        System.out.println(driver.findElement(By.cssSelector("input[name='ctl00$mainContent$view_date2']")).isEnabled());
+        System.out.println(driver.findElement(By.xpath("//div[@id='Div1']")).getDomAttribute("style"));
+        if(driver.findElement(By.xpath("//div[@id='Div1']")).getDomAttribute("style").contains("1"))
+        {
+            System.out.println("its enabled");
+            Assert.assertTrue(true);
+        }
+        else
+        {
+            System.out.println("its enabled");
+            Assert.assertTrue(false);
         }
         Thread.sleep(2000);
         driver.findElement(By.cssSelector("input[id*='SeniorCitizenDiscount']")).click();
