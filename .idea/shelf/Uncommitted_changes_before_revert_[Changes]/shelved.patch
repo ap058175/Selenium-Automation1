@@ -1,0 +1,331 @@
+Index: ../maven-practice/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../maven-practice/pom.xml b/../maven-practice/pom.xml
+new file mode 100644
+--- /dev/null	(date 1765649561581)
++++ b/../maven-practice/pom.xml	(date 1765649561581)
+@@ -0,0 +1,9 @@
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++  <groupId>org.example</groupId>
++  <artifactId>maven-practice</artifactId>
++  <version>1.0-SNAPSHOT</version>
++  <name>Archetype - maven-practice</name>
++  <url>http://maven.apache.org</url>
++</project>
+Index: ../maven-practice/src/main/resources/archetype-resources/pom.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../maven-practice/src/main/resources/archetype-resources/pom.xml b/../maven-practice/src/main/resources/archetype-resources/pom.xml
+new file mode 100644
+--- /dev/null	(date 1765649561583)
++++ b/../maven-practice/src/main/resources/archetype-resources/pom.xml	(date 1765649561583)
+@@ -0,0 +1,15 @@
++<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
++  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
++  <modelVersion>4.0.0</modelVersion>
++  <groupId>$org.example</groupId>
++  <artifactId>$maven-practice</artifactId>
++  <version>$1.0-SNAPSHOT</version>
++  <dependencies>
++    <dependency>
++      <groupId>junit</groupId>
++      <artifactId>junit</artifactId>
++      <version>3.8.1</version>
++      <scope>test</scope>
++    </dependency>
++  </dependencies>
++</project>
+Index: ../maven-practice/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../maven-practice/.gitignore b/../maven-practice/.gitignore
+new file mode 100644
+--- /dev/null	(date 1765649545938)
++++ b/../maven-practice/.gitignore	(date 1765649545938)
+@@ -0,0 +1,38 @@
++target/
++!.mvn/wrapper/maven-wrapper.jar
++!**/src/main/**/target/
++!**/src/test/**/target/
++
++### IntelliJ IDEA ###
++.idea/modules.xml
++.idea/jarRepositories.xml
++.idea/compiler.xml
++.idea/libraries/
++*.iws
++*.iml
++*.ipr
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++build/
++!**/src/main/**/build/
++!**/src/test/**/build/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: ../maven-practice/.idea/.gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/../maven-practice/.idea/.gitignore b/../maven-practice/.idea/.gitignore
+new file mode 100644
+--- /dev/null	(date 1765649553385)
++++ b/../maven-practice/.idea/.gitignore	(date 1765649553385)
+@@ -0,0 +1,5 @@
++# Default ignored files
++/shelf/
++/workspace.xml
++# Environment-dependent path to Maven home directory
++/mavenHomeManager.xml
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+new file mode 100644
+--- /dev/null	(date 1765649789455)
++++ b/.gitignore	(date 1765649789455)
+@@ -0,0 +1,38 @@
++target/
++!.mvn/wrapper/maven-wrapper.jar
++!**/src/main/**/target/
++!**/src/test/**/target/
++
++### IntelliJ IDEA ###
++.idea/modules.xml
++.idea/jarRepositories.xml
++.idea/compiler.xml
++.idea/libraries/
++*.iws
++*.iml
++*.ipr
++
++### Eclipse ###
++.apt_generated
++.classpath
++.factorypath
++.project
++.settings
++.springBeans
++.sts4-cache
++
++### NetBeans ###
++/nbproject/private/
++/nbbuild/
++/dist/
++/nbdist/
++/.nb-gradle/
++build/
++!**/src/main/**/build/
++!**/src/test/**/build/
++
++### VS Code ###
++.vscode/
++
++### Mac OS ###
++.DS_Store
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1767176020925)
++++ b/.idea/workspace.xml	(date 1767176020925)
+@@ -0,0 +1,163 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="">
++      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/DropdownLocators2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Locators2.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Locators3.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/LocatorsPractice.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/WindowActivities.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dropdownPractice1.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../maven-practice/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../maven-practice/.idea/.gitignore" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../maven-practice/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../maven-practice/src/main/resources/META-INF/maven/archetype.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../maven-practice/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../maven-practice/src/main/resources/archetype-resources/src/main/java/App.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/../maven-practice/src/main/resources/archetype-resources/src/test/java/AppTest.java" afterDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Class" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 5
++}</component>
++  <component name="ProjectId" id="36nkauUNrikhdezXkRmglLXqS0o" />
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Application.DropdownLocators2.executor": "Run",
++    "Application.Locators2.executor": "Run",
++    "Application.Locators3.executor": "Run",
++    "Application.LocatorsPractice.executor": "Run",
++    "Application.WindowActivities.executor": "Run",
++    "Application.dropdownPractice1.executor": "Run",
++    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
++    "ModuleVcsDetector.initialDetectionPerformed": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
++    "RunOnceActivity.git.unshallow": "true",
++    "git-widget-placeholder": "amit__branch",
++    "project.structure.last.edited": "Modules",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.2"
++  }
++}]]></component>
++  <component name="RunManager" selected="Application.DropdownLocators2">
++    <configuration name="DropdownLocators2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.DropdownLocators2" />
++      <module name="maven-practice-01" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Locators2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.Locators2" />
++      <module name="maven-practice-01" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="Locators3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.Locators3" />
++      <module name="maven-practice-01" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="WindowActivities" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.WindowActivities" />
++      <module name="maven-practice-01" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="dropdownPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
++      <option name="MAIN_CLASS_NAME" value="org.example.dropdownPractice1" />
++      <module name="maven-practice-01" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="org.example.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Application.DropdownLocators2" />
++        <item itemvalue="Application.dropdownPractice1" />
++        <item itemvalue="Application.WindowActivities" />
++        <item itemvalue="Application.Locators2" />
++        <item itemvalue="Application.Locators3" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="" />
++      <created>1765649791892</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1765649791892</updated>
++    </task>
++    <servers />
++  </component>
++  <component name="github-copilot-workspace">
++    <instructionFileLocations>
++      <option value=".github/instructions" />
++    </instructionFileLocations>
++    <promptFileLocations>
++      <option value=".github/prompts" />
++    </promptFileLocations>
++  </component>
++</project>
+\ No newline at end of file
