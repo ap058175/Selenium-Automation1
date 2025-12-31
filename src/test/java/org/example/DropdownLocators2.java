@@ -16,6 +16,8 @@ public class DropdownLocators2 {
         driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_originStation1_CTNR'] //a[@value='BHO']")).click();
         Thread.sleep(2000);
         driver.findElement(By.xpath("//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='JAI']")).click();
+        Thread.sleep(2000);
+        driver.findElement(By.cssSelector(".ui-state-default.ui-state-active")).click();
         Thread.sleep(5000);
         driver.findElement(By.cssSelector("input[id='autosuggest']")).sendKeys("ind");
         Thread.sleep(2000);

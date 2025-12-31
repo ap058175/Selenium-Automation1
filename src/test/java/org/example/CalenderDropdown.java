@@ -7,5 +7,6 @@ public class CalenderDropdown {
     public static void main(String[] args) {
         WebDriver driver=new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
+        //.ui-state-default.ui-state-active
     }
 }
