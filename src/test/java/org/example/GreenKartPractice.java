@@ -20,6 +20,10 @@ public class GreenKartPractice {
         String[] itemsNeeded = {"Cucumber", "Brocolli", "Beetroot", "Carrot"};
 
         addItems(driver,itemsNeeded);
+        driver.findElement(By.xpath("//img[@alt='Cart']")).click();
+        driver.findElement(By.xpath("//button[contains(text(),'PROCEED TO CHECKOUT')]")).click();
+        driver.findElement(By.cssSelector("input.promoCode")).sendKeys("rahulshettyacademy");;
+        driver.findElement(By.className("promoBtn")).click();
 
     }
 
