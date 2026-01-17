@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="GreenKart code">
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/GFG_Automation_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/GFG_TestNG_Day1/TestNG/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/GFG_TestNG_Day1/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/GFG_TestNG_Day1/testng.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MyFeatureAutomation/FeatureAutomation/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert_[Changes]1/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert__Changes_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert__Changes_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="GreenKart code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
