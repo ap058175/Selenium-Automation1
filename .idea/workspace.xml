@@ -4,15 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="code changes">
-      <change afterPath="$PROJECT_DIR$/../maven-practice/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-practice/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-practice/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../maven-practice/src/main/resources/archetype-resources/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Amit_Functional_Test_Cases_project" beforeDir="false" afterPath="$PROJECT_DIR$/../Amit_Functional_Test_Cases_project" afterDir="false" />
+    <list default="true" id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="GreenKart code">
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/GFG_Automation_Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/GFG_TestNG_Day1/TestNG/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/GFG_TestNG_Day1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GFG_Automation_Project/GFG_TestNG_Day1/testng.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MyFeatureAutomation/FeatureAutomation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert_[Changes]1/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_revert__Changes_1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/DropdownLocators2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/DropdownLocators2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/WindowActivities.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,8 +56,18 @@
   </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ap058175/Selenium-Learning.git&quot;,
+    &quot;url&quot;: &quot;https://github.com/ap058175/Selenium-Automation1.git&quot;,
     &quot;accountId&quot;: &quot;5fafc1df-cee5-48cc-8109-3e57d13d0bef&quot;
+  },
+  &quot;recentNewPullRequestHead&quot;: {
+    &quot;server&quot;: {
+      &quot;useHttp&quot;: false,
+      &quot;host&quot;: &quot;github.com&quot;,
+      &quot;port&quot;: null,
+      &quot;suffix&quot;: null
+    },
+    &quot;owner&quot;: &quot;ap058175&quot;,
+    &quot;repository&quot;: &quot;Selenium-Automation1&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -61,7 +80,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AlertPractice.executor": "Run",
+    "Application.Assignment1.executor": "Run",
     "Application.DropdownLocators2.executor": "Run",
+    "Application.GreenKartPractice.executor": "Run",
     "Application.Locators2.executor": "Run",
     "Application.Locators3.executor": "Run",
     "Application.LocatorsPractice.executor": "Run",
@@ -72,7 +94,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "#4 on Amit-Branch",
     "last_opened_file_path": "/Users/amitkumarmahto/Downloads/New_Java/maven-practice-01",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -80,7 +102,33 @@
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.DropdownLocators2">
+  <component name="RunManager" selected="Application.GreenKartPractice">
+    <configuration name="AlertPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AlertPractice" />
+      <module name="maven-practice-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Assignment1" />
+      <module name="maven-practice-01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DropdownLocators2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DropdownLocators2" />
       <module name="maven-practice-01" />
@@ -94,21 +142,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Locators2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Locators2" />
-      <module name="maven-practice-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Locators3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Locators3" />
+    <configuration name="GreenKartPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.GreenKartPractice" />
       <module name="maven-practice-01" />
       <extension name="coverage">
         <pattern>
@@ -133,26 +168,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dropdownPractice1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.dropdownPractice1" />
-      <module name="maven-practice-01" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GreenKartPractice" />
+        <item itemvalue="Application.AlertPractice" />
+        <item itemvalue="Application.Assignment1" />
         <item itemvalue="Application.DropdownLocators2" />
         <item itemvalue="Application.WindowActivities" />
-        <item itemvalue="Application.Locators3" />
-        <item itemvalue="Application.Locators2" />
-        <item itemvalue="Application.dropdownPractice1" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +210,39 @@
       <option name="project" value="LOCAL" />
       <updated>1767177527163</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="code changes">
+      <option name="closed" value="true" />
+      <created>1767178832447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1767178832447</updated>
+    </task>
+    <task id="LOCAL-00005" summary="code changes">
+      <option name="closed" value="true" />
+      <created>1767183400736</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1767183400736</updated>
+    </task>
+    <task id="LOCAL-00006" summary="code changes">
+      <option name="closed" value="true" />
+      <created>1767266708931</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1767266708931</updated>
+    </task>
+    <task id="LOCAL-00007" summary="GreenKart code">
+      <option name="closed" value="true" />
+      <created>1768652496105</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1768652496106</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,7 +259,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
     <MESSAGE value="code changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="code changes" />
+    <MESSAGE value="GreenKart code" />
+    <option name="LAST_COMMIT_MESSAGE" value="GreenKart code" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
