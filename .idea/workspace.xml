@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="GreenKart code" />
+    <list default="true" id="b27a026a-c509-4d51-bd2f-1e345e01aac5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +76,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "#4 on Amit-Branch",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "/Users/amitkumarmahto/Downloads/New_Java/maven-practice-01",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
