@@ -9,7 +9,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.io.File;
 import java.io.IOException;
 
-public class Misceleanous {
+public class Miscellaneous {
     public static void main(String args []) throws IOException {
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();

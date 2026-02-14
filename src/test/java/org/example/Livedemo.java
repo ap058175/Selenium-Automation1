@@ -23,6 +23,23 @@ public class Livedemo {
 
         //compare both the list
         Assert.assertTrue(newOriginalList.equals(newSortedList));
+       //scan the name column with gettext and if it contains beans then print the price of beans
+        List<String> price;
+        do {
+            List<WebElement> orginalList1=driver.findElements(By.cssSelector("tr td:nth-child(1)"));
+            price = orginalList1.stream().filter(s -> s.getText().contains("Rice")).map(s -> getPrice(s)).collect(Collectors.toList());
+            if(price.size()<1)
+            {
+                driver.findElement(By.cssSelector("[aria-label='Next']")).click();
+            }
+            price.forEach(s -> System.out.println(s));
+        }while (price.size()<1);
 
+
+    }
+
+    public static String getPrice(WebElement s){
+        String price=s.findElement(By.xpath("following-sibling::td[1]")).getText();
+        return price;
     }
 }
